@@ -1,0 +1,853 @@
+<?xml version="1.0"?>
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://spec.trigyan.net/glide/s2t-mapping-config#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     ontologyIRI="http://spec.trigyan.net/glide/s2t-mapping-config#">
+    <Prefix name="" IRI="http://spec.trigyan.net/glide/s2t-mapping-config#"/>
+    <Prefix name="org" IRI="http://www.w3.org/ns/org#"/>
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="foaf" IRI="http://xmlns.com/foaf/0.1/"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Prefix name="skos" IRI="http://www.w3.org/2004/02/skos/core#"/>
+    <Prefix name="terms" IRI="http://purl.org/dc/terms/"/>
+    <Import>http://www.w3.org/ns/org#</Import>
+    <Declaration>
+        <Class IRI="FooterRecord"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="TableColumn"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="EventData"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="engagementEndDate"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="is_mapped_to"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="DerivedData"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="File"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="socialSecurityNumber"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="DelimitedFlatFile"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="hree0"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="ControlRecord"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="MarketData"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="hrem4"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="engagementStartDate"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="hasAppCode"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Application"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="AccountingEvent"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="commaSeperatedTokenizer"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="PricingData"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="lastName"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Record"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="HREMDataRecord"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="is_data_provider_for"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="Infiormation_Technology_Management"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="HRDivision"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="ColumnBasedDataRecord"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="EMF"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="hasApplicationName"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="DelimitedFileLineTokenizer"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="hree3"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="EMFLineTokenizer"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="TransactionalData"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="FlatFile"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="engagementStatus"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="FileColumn"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="hrem3"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="dateOfBirth"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="HRMS"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="hrem1"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="MasterData"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="is_provisioning_point_for"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="hasColumnMember"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="hasDataOwner"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="CompanyACorporation"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="HeaderRecord"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="DataRecord"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="IndexedColumn"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="DataAttribute"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="FileRecord"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="is_tokenized_by"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Dataset"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="hree2"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty abbreviatedIRI="org:hasUnit"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="employeeId"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="hasColumnDelimiter"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="BusinessData"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="hrem2"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="hrem0"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="firstName"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="hasColumnIndex"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="LineTokenizer"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="DataDomain"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="EmployeeEngagementFile"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="is_authoratative_source_for"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="HREERecord"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="hasQuoteCharacter"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="ReferenceData"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Row"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="is_collection_of"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="FixedLengthFlatFile"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="hree1"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="FinancialEvent"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="FixedLengthDataRecord"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Column"/>
+    </Declaration>
+    <EquivalentClasses>
+        <Class IRI="Record"/>
+        <Class IRI="Row"/>
+    </EquivalentClasses>
+    <SubClassOf>
+        <Class IRI="AccountingEvent"/>
+        <Class IRI="EventData"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="BusinessData"/>
+        <Class IRI="DataDomain"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="ColumnBasedDataRecord"/>
+        <Class IRI="DataRecord"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="ControlRecord"/>
+        <Class IRI="FileRecord"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="DataRecord"/>
+        <Class IRI="FileRecord"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="DelimitedFileLineTokenizer"/>
+        <Class IRI="LineTokenizer"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="DelimitedFileLineTokenizer"/>
+        <DataExactCardinality cardinality="1">
+            <DataProperty IRI="hasColumnDelimiter"/>
+            <Datatype abbreviatedIRI="xsd:string"/>
+        </DataExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="DelimitedFileLineTokenizer"/>
+        <DataExactCardinality cardinality="1">
+            <DataProperty IRI="hasQuoteCharacter"/>
+            <Datatype abbreviatedIRI="xsd:string"/>
+        </DataExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="DelimitedFlatFile"/>
+        <Class IRI="FlatFile"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="DelimitedFlatFile"/>
+        <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="is_tokenized_by"/>
+            <Class IRI="DelimitedFileLineTokenizer"/>
+        </ObjectExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="DerivedData"/>
+        <Class IRI="DataDomain"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="EventData"/>
+        <Class IRI="DataDomain"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="File"/>
+        <Class IRI="Dataset"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="File"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="is_collection_of"/>
+            <Class IRI="FileRecord"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="FileColumn"/>
+        <Class IRI="DataAttribute"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="FileRecord"/>
+        <Class IRI="Record"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="FileRecord"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="hasColumnMember"/>
+            <Class IRI="IndexedColumn"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="FinancialEvent"/>
+        <Class IRI="EventData"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="FixedLengthDataRecord"/>
+        <Class IRI="DataRecord"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="FixedLengthFlatFile"/>
+        <Class IRI="FlatFile"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="FlatFile"/>
+        <Class IRI="File"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="FooterRecord"/>
+        <Class IRI="ControlRecord"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="HeaderRecord"/>
+        <Class IRI="ControlRecord"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="IndexedColumn"/>
+        <Class IRI="Column"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="IndexedColumn"/>
+        <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="is_mapped_to"/>
+            <Class IRI="FileColumn"/>
+        </ObjectExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="IndexedColumn"/>
+        <DataExactCardinality cardinality="1">
+            <DataProperty IRI="hasColumnIndex"/>
+            <Datatype abbreviatedIRI="xsd:integer"/>
+        </DataExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="MarketData"/>
+        <Class IRI="DataDomain"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="MasterData"/>
+        <Class IRI="DataDomain"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="PricingData"/>
+        <Class IRI="MarketData"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="ReferenceData"/>
+        <Class IRI="DataDomain"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="TableColumn"/>
+        <Class IRI="DataAttribute"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="TransactionalData"/>
+        <Class IRI="BusinessData"/>
+    </SubClassOf>
+    <DisjointClasses>
+        <Class IRI="BusinessData"/>
+        <Class IRI="DerivedData"/>
+        <Class IRI="EventData"/>
+        <Class IRI="MarketData"/>
+        <Class IRI="MasterData"/>
+        <Class IRI="ReferenceData"/>
+    </DisjointClasses>
+    <ClassAssertion>
+        <Class abbreviatedIRI="org:FormalOrganization"/>
+        <NamedIndividual IRI="CompanyACorporation"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="DelimitedFlatFile"/>
+        <NamedIndividual IRI="EMF"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="DelimitedFileLineTokenizer"/>
+        <NamedIndividual IRI="EMFLineTokenizer"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="DelimitedFlatFile"/>
+        <NamedIndividual IRI="EmployeeEngagementFile"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="org:OrganizationalUnit"/>
+        <NamedIndividual IRI="HRDivision"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="ColumnBasedDataRecord"/>
+        <NamedIndividual IRI="HREERecord"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="ColumnBasedDataRecord"/>
+        <NamedIndividual IRI="HREMDataRecord"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="Application"/>
+        <NamedIndividual IRI="HRMS"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="org:OrganizationalUnit"/>
+        <NamedIndividual IRI="Infiormation_Technology_Management"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="DelimitedFileLineTokenizer"/>
+        <NamedIndividual IRI="commaSeperatedTokenizer"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="DataAttribute"/>
+        <NamedIndividual IRI="dateOfBirth"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="DataAttribute"/>
+        <NamedIndividual IRI="employeeId"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="DataAttribute"/>
+        <NamedIndividual IRI="engagementEndDate"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="DataAttribute"/>
+        <NamedIndividual IRI="engagementStartDate"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="DataAttribute"/>
+        <NamedIndividual IRI="engagementStatus"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="DataAttribute"/>
+        <NamedIndividual IRI="firstName"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="IndexedColumn"/>
+        <NamedIndividual IRI="hree0"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="IndexedColumn"/>
+        <NamedIndividual IRI="hree1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="IndexedColumn"/>
+        <NamedIndividual IRI="hree2"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="IndexedColumn"/>
+        <NamedIndividual IRI="hree3"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="IndexedColumn"/>
+        <NamedIndividual IRI="hrem0"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="IndexedColumn"/>
+        <NamedIndividual IRI="hrem1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="IndexedColumn"/>
+        <NamedIndividual IRI="hrem2"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="IndexedColumn"/>
+        <NamedIndividual IRI="hrem3"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="IndexedColumn"/>
+        <NamedIndividual IRI="hrem4"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="DataAttribute"/>
+        <NamedIndividual IRI="lastName"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="DataAttribute"/>
+        <NamedIndividual IRI="socialSecurityNumber"/>
+    </ClassAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="is_collection_of"/>
+        <NamedIndividual IRI="EMF"/>
+        <NamedIndividual IRI="HREMDataRecord"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="is_tokenized_by"/>
+        <NamedIndividual IRI="EMF"/>
+        <NamedIndividual IRI="EMFLineTokenizer"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="is_collection_of"/>
+        <NamedIndividual IRI="EmployeeEngagementFile"/>
+        <NamedIndividual IRI="HREERecord"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="is_tokenized_by"/>
+        <NamedIndividual IRI="EmployeeEngagementFile"/>
+        <NamedIndividual IRI="commaSeperatedTokenizer"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="hasColumnMember"/>
+        <NamedIndividual IRI="HREERecord"/>
+        <NamedIndividual IRI="hree0"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="hasColumnMember"/>
+        <NamedIndividual IRI="HREERecord"/>
+        <NamedIndividual IRI="hree1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="hasColumnMember"/>
+        <NamedIndividual IRI="HREERecord"/>
+        <NamedIndividual IRI="hree2"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="hasColumnMember"/>
+        <NamedIndividual IRI="HREERecord"/>
+        <NamedIndividual IRI="hree3"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="hasColumnMember"/>
+        <NamedIndividual IRI="HREMDataRecord"/>
+        <NamedIndividual IRI="hrem0"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="hasColumnMember"/>
+        <NamedIndividual IRI="HREMDataRecord"/>
+        <NamedIndividual IRI="hrem1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="hasColumnMember"/>
+        <NamedIndividual IRI="HREMDataRecord"/>
+        <NamedIndividual IRI="hrem2"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="hasColumnMember"/>
+        <NamedIndividual IRI="HREMDataRecord"/>
+        <NamedIndividual IRI="hrem3"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="hasColumnMember"/>
+        <NamedIndividual IRI="HREMDataRecord"/>
+        <NamedIndividual IRI="hrem4"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="is_data_provider_for"/>
+        <NamedIndividual IRI="HRMS"/>
+        <NamedIndividual IRI="EMF"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="is_data_provider_for"/>
+        <NamedIndividual IRI="HRMS"/>
+        <NamedIndividual IRI="EmployeeEngagementFile"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="is_mapped_to"/>
+        <NamedIndividual IRI="hree0"/>
+        <NamedIndividual IRI="employeeId"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="is_mapped_to"/>
+        <NamedIndividual IRI="hree1"/>
+        <NamedIndividual IRI="engagementStartDate"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="is_mapped_to"/>
+        <NamedIndividual IRI="hree2"/>
+        <NamedIndividual IRI="engagementEndDate"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="is_mapped_to"/>
+        <NamedIndividual IRI="hree3"/>
+        <NamedIndividual IRI="engagementStatus"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="is_mapped_to"/>
+        <NamedIndividual IRI="hrem0"/>
+        <NamedIndividual IRI="employeeId"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="is_mapped_to"/>
+        <NamedIndividual IRI="hrem1"/>
+        <NamedIndividual IRI="lastName"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="is_mapped_to"/>
+        <NamedIndividual IRI="hrem2"/>
+        <NamedIndividual IRI="firstName"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="is_mapped_to"/>
+        <NamedIndividual IRI="hrem3"/>
+        <NamedIndividual IRI="dateOfBirth"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="is_mapped_to"/>
+        <NamedIndividual IRI="hrem4"/>
+        <NamedIndividual IRI="socialSecurityNumber"/>
+    </ObjectPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="hasColumnDelimiter"/>
+        <NamedIndividual IRI="EMFLineTokenizer"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">,</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="hasAppCode"/>
+        <NamedIndividual IRI="HRMS"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">HRMS</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="hasApplicationName"/>
+        <NamedIndividual IRI="HRMS"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Human Resources Management System</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="hasColumnDelimiter"/>
+        <NamedIndividual IRI="commaSeperatedTokenizer"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">,</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="hasColumnIndex"/>
+        <NamedIndividual IRI="hree0"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">0</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="hasColumnIndex"/>
+        <NamedIndividual IRI="hree1"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">1</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="hasColumnIndex"/>
+        <NamedIndividual IRI="hree2"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">2</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="hasColumnIndex"/>
+        <NamedIndividual IRI="hree3"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">3</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="hasColumnIndex"/>
+        <NamedIndividual IRI="hrem0"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">0</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="hasColumnIndex"/>
+        <NamedIndividual IRI="hrem1"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">1</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="hasColumnIndex"/>
+        <NamedIndividual IRI="hrem2"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">2</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="hasColumnIndex"/>
+        <NamedIndividual IRI="hrem3"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">3</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="hasColumnIndex"/>
+        <NamedIndividual IRI="hrem4"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">4</Literal>
+    </DataPropertyAssertion>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="is_authoratative_source_for"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="is_provisioning_point_for"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="is_authoratative_source_for"/>
+        <Class IRI="Application"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="is_collection_of"/>
+        <Class IRI="Record"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="is_data_provider_for"/>
+        <Class IRI="Application"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="is_tokenized_by"/>
+        <Class IRI="DelimitedFlatFile"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="is_authoratative_source_for"/>
+        <Class IRI="DataDomain"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="is_collection_of"/>
+        <Class IRI="DataAttribute"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="is_data_provider_for"/>
+        <Class IRI="Dataset"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="is_tokenized_by"/>
+        <Class IRI="DelimitedFileLineTokenizer"/>
+    </ObjectPropertyRange>
+    <SubDataPropertyOf>
+        <DataProperty IRI="hasColumnIndex"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <DataPropertyDomain>
+        <DataProperty IRI="hasAppCode"/>
+        <Class IRI="Application"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="hasApplicationName"/>
+        <Class IRI="Application"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="hasColumnDelimiter"/>
+        <Class IRI="DelimitedFileLineTokenizer"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="hasColumnIndex"/>
+        <Class IRI="IndexedColumn"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="hasDataOwner"/>
+        <Class IRI="Application"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="hasQuoteCharacter"/>
+        <Class IRI="DelimitedFileLineTokenizer"/>
+    </DataPropertyDomain>
+    <DataPropertyRange>
+        <DataProperty IRI="hasAppCode"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="hasApplicationName"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="hasColumnDelimiter"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="hasColumnIndex"/>
+        <Datatype abbreviatedIRI="xsd:integer"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="hasDataOwner"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="hasQuoteCharacter"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>EMF</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Employee Master File</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="org:hasUnit"/>
+        <IRI>HRDivision</IRI>
+        <IRI>HRDivision</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="org:hasUnit"/>
+        <IRI>HRDivision</IRI>
+        <IRI>Infiormation_Technology_Management</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>HRMS</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Human Resources Management System</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>Infiormation_Technology_Management</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Information Technology Managment</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>hasColumnMember</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">has column member</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>hasDataOwner</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Data Owner</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>is_authoratative_source_for</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">is authoratative source for</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>is_collection_of</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">is collection of</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>is_data_provider_for</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">is data provider for</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>is_mapped_to</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">is mapped to</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>is_provisioning_point_for</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">is provisioning point for</Literal>
+    </AnnotationAssertion>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 4.2.5.20160517-0735) https://github.com/owlcs/owlapi -->
+
