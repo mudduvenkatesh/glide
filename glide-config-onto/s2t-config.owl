@@ -17,14 +17,15 @@
     <Prefix name="skos" IRI="http://www.w3.org/2004/02/skos/core#"/>
     <Prefix name="terms" IRI="http://purl.org/dc/terms/"/>
     <Import>http://www.w3.org/ns/org#</Import>
+    <Import>http://xmlns.com/foaf/0.1/</Import>
     <Declaration>
         <Class IRI="FooterRecord"/>
     </Declaration>
     <Declaration>
-        <Class IRI="TableColumn"/>
+        <Class IRI="EventData"/>
     </Declaration>
     <Declaration>
-        <Class IRI="EventData"/>
+        <Class IRI="TableColumn"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="engagementEndDate"/>
@@ -48,10 +49,10 @@
         <NamedIndividual IRI="hree0"/>
     </Declaration>
     <Declaration>
-        <Class IRI="ControlRecord"/>
+        <Class IRI="MarketData"/>
     </Declaration>
     <Declaration>
-        <Class IRI="MarketData"/>
+        <Class IRI="ControlRecord"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="hrem4"/>
@@ -123,10 +124,10 @@
         <Class IRI="FileColumn"/>
     </Declaration>
     <Declaration>
-        <NamedIndividual IRI="hrem3"/>
+        <NamedIndividual IRI="dateOfBirth"/>
     </Declaration>
     <Declaration>
-        <NamedIndividual IRI="dateOfBirth"/>
+        <NamedIndividual IRI="hrem3"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="HRMS"/>
